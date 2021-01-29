@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SistemaControlCuentas.Entidades
+﻿namespace SistemaControlCuentas.Entidades
 {
-    class Departamentos
+    public class Departamentos
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
