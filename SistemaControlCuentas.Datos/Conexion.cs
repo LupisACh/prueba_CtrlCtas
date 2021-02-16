@@ -15,7 +15,7 @@ namespace SistemaControlCuentas.Datos
         {
             try
             {
-                conBD = new MySqlConnection("server=192.168.4.17; database=control_cuentas; Uid=root; pwd = sis123.");
+                conBD = new MySqlConnection("");
                 conBD.Open();
                 return conBD;
             }
